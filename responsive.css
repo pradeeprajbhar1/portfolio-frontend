@@ -1,0 +1,388 @@
+/* =====================================================
+   RESPONSIVE DESIGN
+   Mobile + Tablet + Small Laptop
+   ===================================================== */
+
+/* ================= LARGE TABLET / SMALL LAPTOP ================= */
+
+@media(max-width:1100px){
+
+
+    .hero h1{
+
+        font-size:45px;
+
+    }
+
+
+    .skills-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+
+    .project-container{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+    .hero-image img{
+
+        width:300px;
+
+        height:300px;
+
+    }
+
+
+}
+
+/* ================= TABLET ================= */
+
+@media(max-width:768px){
+
+
+
+    /* Navbar */
+
+
+    .navbar{
+
+        width:90%;
+
+    }
+
+
+
+    .nav-links{
+
+
+        position:absolute;
+
+        top:80px;
+
+        left:0;
+
+        width:100%;
+
+
+        background:var(--card-color);
+
+
+        flex-direction:column;
+
+        align-items:center;
+
+
+        padding:30px 0;
+
+
+        display:none;
+
+
+    }
+
+
+
+    .nav-links.active{
+
+
+        display:flex;
+
+
+    }
+
+
+
+
+    .menu-icon{
+
+
+        display:block;
+
+
+    }
+
+
+
+
+    #theme-toggle{
+
+        margin-left:auto;
+
+        margin-right:20px;
+
+    }
+
+
+
+
+
+
+
+
+    /* Hero */
+
+
+    .hero{
+
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+        padding-top:120px;
+
+
+    }
+
+
+
+
+    .hero h1{
+
+        font-size:38px;
+
+    }
+
+
+
+    .hero h2{
+
+        font-size:24px;
+
+    }
+
+
+
+    .hero-buttons{
+
+
+        justify-content:center;
+
+
+    }
+
+
+
+
+    .social-links{
+
+
+        justify-content:center;
+
+
+    }
+
+
+
+
+    .hero-image img{
+
+
+        width:260px;
+
+        height:260px;
+
+
+    }
+
+
+
+
+
+
+    /* Sections */
+
+
+    .section-title{
+
+
+        font-size:32px;
+
+
+    }
+
+
+
+
+
+
+
+    /* Skills */
+
+
+    .skills-container{
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+
+
+
+    /* Projects */
+
+
+    .project-container{
+
+
+        grid-template-columns:1fr;
+
+
+    }
+
+
+
+
+
+}
+
+/* ================= MOBILE ================= */
+
+@media(max-width:480px){
+
+
+
+    html{
+
+        font-size:14px;
+
+    }
+
+
+
+    .logo{
+
+        font-size:26px;
+
+    }
+
+
+
+    .hero h1{
+
+
+        font-size:32px;
+
+
+    }
+
+
+
+
+    .hero p{
+
+
+        font-size:14px;
+
+
+    }
+
+
+
+
+    .hero-buttons{
+
+
+        flex-direction:column;
+
+        align-items:center;
+
+
+    }
+
+
+
+    .btn{
+
+
+        width:220px;
+
+        text-align:center;
+
+
+    }
+
+
+
+
+
+    .hero-image img{
+
+
+        width:220px;
+
+        height:220px;
+
+
+    }
+
+
+
+
+    .about-container{
+
+
+        padding:25px;
+
+
+    }
+
+
+
+
+    .section{
+
+
+        width:85%;
+
+
+    }
+
+
+
+
+    .section-title{
+
+
+        font-size:28px;
+
+
+    }
+
+
+
+
+
+    .project-card{
+
+
+        padding:15px;
+
+
+    }
+
+
+
+
+
+    #scroll-top{
+
+
+        right:20px;
+
+        bottom:20px;
+
+
+    }
+
+}
