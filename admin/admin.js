@@ -1,6 +1,6 @@
 async function loadMessages(){
 
-    const response = await fetch("http://localhost:5000/api/contact");
+    const response = await fetch("https://portfolio-backend-i085.onrender.com/api/contact");
 
     const data = await response.json();
 
@@ -50,7 +50,7 @@ async function deleteMessage(id){
 
     if(!confirmDelete) return;
 
-    await fetch(`http://localhost:5000/api/contact/${id}`,{
+    await fetch(`https://portfolio-backend-i085.onrender.com/api/contact/${id}`,{
 
         method:"DELETE"
 
