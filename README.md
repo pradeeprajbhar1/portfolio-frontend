@@ -9,7 +9,7 @@ Welcome to the GitHub repository for my personal portfolio website! This project
 ## 📸 Website Overview & Screenshots
 
 ### 🏠 Main Hero Section
-![Hero Section](https://raw.githubusercontent.com/pradeeprajbhar1/portfolio-frontend/main/Screenshot%20(145).png)
+![Hero Section](https://github.com/pradeeprajbhar1/portfolio-frontend/blob/main/portfolio%20web%20snapshot.png)
 
 ---
 
